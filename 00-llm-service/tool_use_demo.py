@@ -92,14 +92,14 @@ if function_call:
     print(f"\n  → Modelo decidió llamar a: {function_call.name}")
     print(f"  → Con argumentos: {dict(function_call.args)}")
 
-    # === PASO 2: Tu código ejecuta la tool ===
+
     print("\n" + "=" * 60)
     print("PASO 2: Ejecutamos la tool")
     print("=" * 60)
 
     resultado_crm = buscar_cliente_en_crm(**dict(function_call.args))
 
-    # === PASO 3: Modelo genera respuesta final con el resultado ===
+
     print("\n" + "=" * 60)
     print("PASO 3: Modelo genera respuesta final usando datos del CRM")
     print("=" * 60)
