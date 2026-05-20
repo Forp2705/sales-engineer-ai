@@ -181,3 +181,5 @@ cython_debug/
 .cursorindexingignore
 # Local history extension
 .history/
+# Environment variables
+.env
