@@ -6,8 +6,8 @@ Building production AI systems while learning in public.
 Developer with experience in Python. 8+ years in B2B sales operations. Pivoting to AI Engineering roles.
 
 ## Projects
-- `00-llm-service/` — First LLM API service with Gemini (in progress)
-- `01-b2b-sales-rag/` — RAG over B2B sales materials (planned)
+- `00-llm-service/` — First LLM API service with Gemini (done)
+- `01-b2b-sales-rag/` — RAG over B2B sales materials (in progress)
 - `02-lead-intake-agent/` — Tool-calling agent for sales lead processing (planned)
 - `03-crm-mcp-server/` — MCP server exposing CRM as tools (planned)
 
